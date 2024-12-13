@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <!-- Elemen utama halaman, dengan atribut class kosong untuk potensi styling -->
+
+    <div class="container">
+      <!-- Pembungkus utama untuk konten -->
+      <header>
+        <!-- Bagian header halaman -->
+        <div class="title">PRODUCT LIST</div>
+        <!-- Teks judul "PRODUCT LIST" dengan styling via kelas title -->
+        <div class="icon-cart">
+          <!-- Ikon keranjang belanja -->
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 18 20"
+          >
+            <!-- Ikon keranjang dalam format SVG -->
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+            />
+            <!-- Detail ikon keranjang -->
+          </svg>
+          <span>0</span>
+          <!-- Menampilkan jumlah item dalam keranjang (awalnya 0) -->
+        </div>
+      </header>
+      <div class="listProduct">
+        <!-- Tempat untuk daftar produk yang akan diisi secara dinamis -->
+      </div>
+    </div>
+    <div class="cartTab">
+      <!-- Panel keranjang belanja -->
+      <h1>Shopping Cart</h1>
+      <!-- Judul untuk panel keranjang -->
+      <div class="listCart"><!-- Tempat daftar item dalam keranjang --></div>
+      <div class="btn">
+        <!-- Tempat untuk tombol aksi -->
+        <button class="close">CLOSE</button>
+        <!-- Tombol untuk menutup panel keranjang -->
+        <button class="checkOut">Check Out</button>
+        <!-- Tombol untuk proses checkout -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <!-- Memuat file JavaScript eksternal untuk logika aplikasi -->
+  </body>
+</html>
+<!-- Menutup elemen HTML -->
